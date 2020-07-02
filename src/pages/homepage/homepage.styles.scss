@@ -1,0 +1,105 @@
+.homepage {
+  background-image: url('../../assets/papyrus-dark.png');
+  background-image: url('../../assets/prism.png');
+
+  .column {
+    width: 70%;
+    margin: auto;
+  }
+
+  .header {
+    // background-color: #cccccc;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 30px;
+    margin: 0 25% 0 25%;
+
+    .header-item {
+      
+      &:hover {
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+
+  .blog-container {
+    background-color: #fcbebe;
+
+    height: 500px;
+    padding-top: 30px;
+  }
+
+  .about-me-container {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    color: white;
+
+    .profile-image {
+      width: 30%;
+      
+      img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+      }
+    }
+    
+    .about-me-details {
+      height: 200px;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+
+  .skills-container {
+    background-color: #f7dcad;
+    
+    display: flex;
+    justify-content: center;
+    height: 200px;
+  }
+
+  .projects-container {
+    background-color: #afebeb;
+
+    height: 400px;
+    text-align: center;
+
+    .title {
+    }
+
+    .project-list {
+      display: flex;
+      justify-content: space-between;
+
+      .project {
+        background-color: #f82323;
+        
+        width: 30%;
+  
+        .project-image {
+          background-color: #5aca7e;
+  
+          height: 200px;
+          // width: 75%;
+        }
+
+        .project-name {
+
+        }
+
+        .project-description {
+          text-align: left;
+        }
+      }
+    }
+
+  }
+}
