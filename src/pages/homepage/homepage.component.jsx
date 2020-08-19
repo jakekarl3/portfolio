@@ -1,70 +1,38 @@
 import React from 'react';
-
-// STYLES
-// import { HomePageContainer } from './homepage.styles';
-import './homepage.styles.scss';
-
-// ICONS
-import {ReactComponent as HTML5Logo } from '../../assets/html-5.svg';
+import { Element } from 'react-scroll';
 
 // COMPONENTS
-// import Header from '../../components/header/header.component';
+import Navigation from '../../components/navigation/navigation.component';
+import Landing from '../../components/landing/landing.component';
+import BlogPreview from '../../components/blog-preview/blog-preview.component';
+import AboutMe from '../../components/about-me/about-me.component';
+import ProjectGallery from '../../components/project-gallery/project-gallery.component';
+
+// STYLES
+import './homepage.styles.scss';
 
 const HomePage = () => (
-  // <HomePageContainer>
-  //   <Header />
-
-  // </HomePageContainer>
   <div className="homepage">
-    <div className="header">
-      <div className="header-item">HOME</div>
-      <div className="header-item">ABOUT</div>
-      <div className="header-item">PROJECTS</div>
-      <div className="header-item">THOUGHTS</div>
-    </div>
-    <div className="blog-container column">
-      <div className="title">BLOGS</div>
-    </div>
-    <div className="about-me-container column">
-      <div className="profile-image">
-        <img src={require('../../assets/profile-image.jpg')} alt="Profile"/>
+    <Navigation />
+    <Element name="section-landing">
+      <Landing />
+    </Element>
+    <Element name="section-blog">
+      <div className="section-blog">
+        <BlogPreview />
+        <a href="#" className="btn-view-all">View all</a>
       </div>
-      <div className="about-me-details">
-        <div className="title">ABOUT ME</div>
-        <div className="about-me_description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra vel turpis nunc eget lorem dolor sed viverra.
-        </div>
-        <div className="about-me_contact-info">
-          <div className="email">jakekarl3@gmail.com</div>
-          <div className="city">Lisle, IL</div>
-          <div className="phone">630 730 7041</div>
-        </div>
+    </Element>
+    <Element name="section-about-me">
+      <div className="section-about-me">
+        <AboutMe />
       </div>
-    </div>
-    <div className="skills-container column">
-      <div className="title">SKILLS</div>
-      <HTML5Logo />
-    </div>
-    <div className="projects-container column">
-      <div className="title">PROJECTS</div>
-      <div className="project-list">
-        <div className="project">
-          <div className="project-image"></div>
-          <div className="project-name">PROJECT 1</div>
-          <div className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed.</div>
-        </div>
-        <div className="project">
-          <div className="project-image"></div>
-          <div className="project-name">PROJECT 2</div>
-          <div className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed.</div>
-        </div>
-        <div className="project">
-          <div className="project-image"></div>
-          <div className="project-name">PROJECT 3</div>
-          <div className="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed.</div>
-        </div>
+    </Element>
+    <Element name="section-projects">
+      <div className="section-projects">
+        <ProjectGallery />
       </div>
-    </div>
+    </Element>
   </div>
 );
 

@@ -1,0 +1,45 @@
+.about-me {
+  width: 75vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #05386B;
+  
+  .profile-image {
+    background-color: black;
+
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    background-image: url(../../assets/profile-image.jpg);
+    background-size: cover;
+    border: 4px solid #EDF5E1;
+    filter: drop-shadow(4px 10px 10px rgba(0, 0, 0, 0.25));
+  }
+
+  .textbox {
+    width: 70rem;
+    padding: 5rem;
+    background-color: #EDF5E1;
+    border-radius: 10px;
+    filter: drop-shadow(4px 10px 10px rgba(0, 0, 0, 0.25));
+
+    h2 {
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    
+    h2:last-of-type {
+      padding-top: 3rem;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+  }
+}
