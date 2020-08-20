@@ -8,10 +8,7 @@ import './project-gallery.styles.scss';
 
 const ProjectGallery = () => (
   <div className="project-gallery">
-    <ProjectCard 
-      // title="Project 1"
-      // description=""
-    />
+    <ProjectCard />
     <ProjectCard />
   </div>
 );

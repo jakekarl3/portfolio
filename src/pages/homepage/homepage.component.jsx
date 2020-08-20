@@ -7,6 +7,8 @@ import Landing from '../../components/landing/landing.component';
 import BlogPreview from '../../components/blog-preview/blog-preview.component';
 import AboutMe from '../../components/about-me/about-me.component';
 import ProjectGallery from '../../components/project-gallery/project-gallery.component';
+import Contact from '../../components/contact/contact.component';
+import Footer from '../../components/footer/footer.component';
 
 // STYLES
 import './homepage.styles.scss';
@@ -31,6 +33,16 @@ const HomePage = () => (
     <Element name="section-projects">
       <div className="section-projects">
         <ProjectGallery />
+      </div>
+    </Element>
+    <Element name="section-contact">
+      <div className="section-contact">
+        <Contact />
+      </div>
+    </Element>
+    <Element>
+      <div className="section-footer">
+        <Footer />
       </div>
     </Element>
   </div>

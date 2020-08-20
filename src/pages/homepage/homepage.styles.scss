@@ -42,4 +42,13 @@
     background: linear-gradient(154.84deg, #379683 -3.85%, #05386B 106.77%);
     clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
   }
+
+  .section-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 90rem;
+    background: linear-gradient(327.76deg, #379683 -2.58%, #05386B 104.87%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  }
 }
