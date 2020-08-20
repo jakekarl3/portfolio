@@ -4,12 +4,30 @@ import { Link } from 'react-scroll';
 // STYLES
 import './navigation.styles.scss';
 
-
 class Navigation extends React.Component {
+  state = {
+    class: "navigation"
+  }
+
+  listenScrollEvent = e => {
+    if (window.scrollY > 0) {
+      this.setState({
+        class: "active-navigation"
+      }) 
+    } else {
+      this.setState({
+        class: "navigation"
+      })
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
+  }
 
   render() {
     return (
-      <div className="navigation">
+      <div className={this.state.class}>
         <Link
           to="section-landing"
           smooth={true}
