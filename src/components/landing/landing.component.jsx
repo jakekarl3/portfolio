@@ -16,10 +16,18 @@ const Landing = () => (
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra vel turpis nunc eget lorem dolor sed viverra.
       </h3>
       <div className="landing__textbox--social">
-        <img src={linkedIn} alt="linkedIn logo" />
-        <img src={github} alt="github logo" />
-        <img src={twitter} alt="twitter logo" />
-        <img src={instagram} alt="instagram logo" />
+        <a href="https://www.linkedin.com/in/jakekarl/" target="_blank" rel="noopener noreferrer">
+          <img src={linkedIn} alt="linkedIn logo" />
+        </a>
+        <a href="https://github.com/jakekarl3" target="_blank" rel="noopener noreferrer">
+          <img src={github} alt="github logo" />
+        </a>
+        <a href="https://twitter.com/jakeakarl" target="_blank" rel="noopener noreferrer">
+          <img src={twitter} alt="twitter logo" />
+        </a>
+        <a href="https://www.instagram.com/jakarl/" target="_blank" rel="noopener noreferrer">
+          <img src={instagram} alt="instagram logo" />
+        </a>
       </div>
     </div>
   </div>
