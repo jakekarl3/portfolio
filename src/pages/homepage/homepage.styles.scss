@@ -7,8 +7,10 @@
     display: flex;
     flex-direction: column;
     height: 90vh;
-
+    
     .btn-view-all {
+      transition: all .2s;
+      
       &:link,
       &:visited {
         font-size: 1.8rem;
