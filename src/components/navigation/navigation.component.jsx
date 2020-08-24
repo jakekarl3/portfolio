@@ -10,9 +10,9 @@ class Navigation extends React.Component {
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 30) {
       this.setState({
-        class: "active-navigation"
+        class: "navigation sticky"
       }) 
     } else {
       this.setState({
@@ -57,7 +57,11 @@ class Navigation extends React.Component {
         >
           <div className="navigation__item">Projects</div>
         </Link>
-        <Link>
+        <Link
+          to="section-contact"
+          smooth={true}
+          duration={500}
+        >
           <div className="navigation__item">Contact</div>
         </Link>
       </div>

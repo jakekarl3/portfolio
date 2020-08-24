@@ -1,16 +1,16 @@
 .about-me {
-  width: 75vw;
+  // width: 70vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 15rem 0;
   color: #05386B;
   
   .profile-image {
-    background-color: black;
-
     height: 25rem;
     width: 25rem;
+    margin: 0 2rem;
     border-radius: 50%;
     background-image: url(../../assets/profile-image.jpg);
     background-size: cover;
@@ -20,6 +20,7 @@
 
   .textbox {
     width: 70rem;
+    margin: 0 2rem;
     padding: 5rem;
     background-color: #EDF5E1;
     border-radius: 10px;

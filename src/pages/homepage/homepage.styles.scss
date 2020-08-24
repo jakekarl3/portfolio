@@ -2,54 +2,33 @@
   background-color: #EDF5E1;
   display: flex;
   flex-direction: column;
+  top: 20px;
+
+  .section-landing {
+    // top: -1rem;
+  }
 
   .section-blog {
     display: flex;
-    flex-direction: column;
-    height: 90vh;
-    
-    .btn-view-all {
-      transition: all .2s;
-      
-      &:link,
-      &:visited {
-        font-size: 1.8rem;
-        color: #05386B;
-        display: inline-block;
-        text-decoration: none;
-        border-bottom: 2px solid #05386B;
-        margin: auto;
-      }
-
-      &:hover {
-        background-color: #05386B;
-        color: #EDF5E1;
-        box-shadow: 0 1rem 2rem rgba(black, .15);
-        transform: translateY(-2px);
-        transition: all .2s;
-        padding: 0.2rem;
-      }
-
-      &:active {
-        box-shadow: 0 0.5rem 1rem rgba(black, 0.15);
-        transform: translateY(0);
-      }
-    }
+    justify-content: center;
   }
 
   .section-about-me {
-    height: 90rem;
     display: flex;
     justify-content: center;
     background: linear-gradient(154.84deg, #379683 -3.85%, #05386B 106.77%);
     clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
   }
 
+  .section-projects {
+    display: flex;
+    justify-content: center;
+  }
+
   .section-contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    // height: 90rem;
     background: linear-gradient(327.76deg, #379683 -2.58%, #05386B 104.87%);
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
   }
