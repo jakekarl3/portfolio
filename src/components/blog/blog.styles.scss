@@ -1,6 +1,4 @@
 .blog {
-  // margin-bottom: 3rem;
-  // font-size: 1.4rem;
   display: flex;
   flex-direction: column;
   width: 25rem;
@@ -15,25 +13,23 @@
   }
 
   &__textbox {
-    // margin-top: 1.5rem;
 
     &--details {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      // margin-bottom: 0.5rem;
 
       & .date {
-        color: #05386B;
+        color: var(--primary-blue-900);
         opacity: 0.75;
         float: left;
       }
       
       & .category {
-        padding: 0 1rem;
         height: 2rem;
         text-align: center;
-        background-color: #5CDB95;
+        color: var(--primary-lime-900);
+        background-color: var(--primary-lime-400);
         border-radius: 1.5rem;
         float: right;
         line-height: 2rem;
@@ -41,9 +37,9 @@
     }
 
     &--title {
-      color: #05386B;
+      color: var(--primary-blue-900);
       display: inline-block;
-      font-weight: 600;
+      // font-weight: 600;
     }
   }
 }

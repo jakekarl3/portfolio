@@ -2,7 +2,7 @@
   height: 93vh;
   background: linear-gradient(
       324.58deg, 
-      rgba(55, 150, 131, 0.75) 14.82%, 
+      rgba(48, 149, 93, 0.75) 14.82%, 
       rgba(5, 56, 107, 0.75) 70.24%), 
     url(../../assets/hero-3.jpg);
   background-size: cover;
@@ -18,12 +18,11 @@
     text-align: center;
 
     &--title {
-      color: #8EE4AF;
+      color: var(--primary-lime-300);
     }
     
     &--description {
-      color: #EDF5E1;
-      font-weight: 300;
+      color: var(--primary-green-100);
     }
 
     &--social {
@@ -37,7 +36,6 @@
       img {
         height: 3rem;
         opacity: 0.5;
-        margin: 0 0.5rem;
       }
     }
   }

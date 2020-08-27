@@ -7,66 +7,65 @@
 }
 
 :root {
-  --primary-green: #379683;
-  --primary-blue-900: hsl(211, 85, 24, 100%);
-  --primary-blue-700: hsl(211, 71, 31, 100%);
-  --primary-blue-800: hsl(211, 61, 37, 100%);
-  --primary-blue-600: hsl(211, 54, 44, 100%);
-  --primary-blue-500: hsl(211, 50, 50, 100%);
-  --primary-blue-400: hsl(211, 53, 60, 100%);
-  --primary-blue-300: hsl(211, 57, 70, 100%);
-  --primary-blue-200: hsl(211, 64, 80, 100%);
-  --primary-blue-100: hsl(211, 88, 90, 100%);
+  --primary-blue-900: #093B71;
+  --primary-blue-800: #174C85;
+  --primary-blue-700: #255D98;
+  --primary-blue-600: #336EAC;
+  --primary-blue-500: #407FBF;
+  --primary-blue-400: #6499CF;
+  --primary-blue-300: #88B2DE;
+  --primary-blue-200: #ACCCED;
+  --primary-blue-100: #CFE5FC;
 
-  --primary-lime-900: hsl(147, 93, 16, 100%);
-  --primary-lime-800: hsl(147, 63, 27, 100%);
-  --primary-lime-700: hsl(147, 51, 39, 100%);
-  --primary-lime-600: hsl(147, 45, 50, 100%);
-  --primary-lime-500: hsl(147, 64, 61, 100%);
-  --primary-lime-400: hsl(147, 66, 69, 100%);
-  --primary-lime-300: hsl(147, 68, 77, 100%);
-  --primary-lime-200: hsl(147, 75, 85, 100%);
-  --primary-lime-100: hsl(147, 90, 92, 100%);
+  --primary-lime-900: #034E25;
+  --primary-lime-800: #1A7241;
+  --primary-lime-700: #30955D;
+  --primary-lime-600: #46B879;
+  --primary-lime-500: #5CDB95;
+  --primary-lime-400: #7CE4AA;
+  --primary-lime-300: #9BECBF;
+  --primary-lime-200: #BAF5D4;
+  --primary-lime-100: #D9FDE9;
 
-  --primary-green-900: hsl(83, 87, 18, 100%);
-  --primary-green-800: hsl(83, 53, 27, 100%);
-  --primary-green-700: hsl(83, 35, 37, 100%);
-  --primary-green-600: hsl(84, 25, 46, 100%);
-  --primary-green-500: hsl(84, 22, 55, 100%);
-  --primary-green-400: hsl(83, 24, 64, 100%);
-  --primary-green-300: hsl(83, 27, 74, 100%);
-  --primary-green-200: hsl(84, 32, 83, 100%);
-  --primary-green-100: hsl(83, 51, 92, 100%);
+  --primary-green-900: #375606;
+  --primary-green-800: #4E6A21;
+  --primary-green-700: #657E3D;
+  --primary-green-600: #7B9258;
+  --primary-green-500: #92A673;
+  --primary-green-400: #A9BA8E;
+  --primary-green-300: #C0CEAA;
+  --primary-green-200: #D6E1C5;
+  --primary-green-100: #EDF5E0;
 
-  --primary-grey-900: hsl(240, 4, 11, 100%);
-  --primary-grey-800: hsl(240, 3, 23, 100%);
-  --primary-grey-700: hsl(231, 4, 35, 100%);
-  --primary-grey-600: hsl(232, 3, 47, 100%);
-  --primary-grey-500: hsl(229, 5, 59, 100%);
-  --primary-grey-400: hsl(227, 5, 67, 100%);
-  --primary-grey-300: hsl(230, 5, 76, 100%);
-  --primary-grey-200: hsl(240, 5, 84, 100%);
-  --primary-grey-100: hsl(240, 5, 92, 100%);
+  --primary-grey-900: #1B1B1D;
+  --primary-grey-800: #39393D;
+  --primary-grey-700: #56575D;
+  --primary-grey-600: #74757C;
+  --primary-grey-500: #91939C;
+  --primary-grey-400: #A7A9B0;
+  --primary-grey-300: #BEBFC4;
+  --primary-grey-200: #D4D4C8;
+  --primary-grey-100: #EAEAEC;
 
-  --accent-red-900: hsl(0, 88, 19, 100%);
-  --accent-red-800: hsl(0, 69, 27, 100%);
-  --accent-red-700: hsl(0, 60, 35, 100%);
-  --accent-red-600: hsl(0, 54, 42, 100%);
-  --accent-red-500: hsl(0, 50, 50, 100%);
-  --accent-red-400: hsl(0, 52, 60, 100%);
-  --accent-red-300: hsl(0, 56, 71, 100%);
-  --accent-red-200: hsl(0, 65, 81, 100%);
-  --accent-red-100: hsl(0, 91, 91, 100%);
+  --accent-red-900: #5B0606;
+  --accent-red-800: #741515;
+  --accent-red-700: #8D2323;
+  --accent-red-600: #A63232;
+  --accent-red-500: #BF4040;
+  --accent-red-400: #CF6565;
+  --accent-red-300: #DE8A8A;
+  --accent-red-200: #EEAEAE;
+  --accent-red-100: #FDD3D3;
 
-  --accent-yellow-900: hsl(42, 91, 21, 100%);
-  --accent-yellow-800: hsl(42, 67, 32, 100%);
-  --accent-yellow-700: hsl(42, 55, 43, 100%);
-  --accent-yellow-600: hsl(41, 56, 54, 100%);
-  --accent-yellow-500: hsl(41, 80, 65, 100%);
-  --accent-yellow-400: hsl(41, 81, 71, 100%);
-  --accent-yellow-300: hsl(41, 85, 77, 100%);
-  --accent-yellow-200: hsl(41, 88, 83, 100%);
-  --accent-yellow-100: hsl(41, 96, 89, 100%);
+  --accent-yellow-900: #664905;
+  --accent-yellow-800: #88671B;
+  --accent-yellow-700: #AA8532;
+  --accent-yellow-600: #CBA248;
+  --accent-yellow-500: #EDC05E;
+  --accent-yellow-400: #F1CB79;
+  --accent-yellow-300: #F6D793;
+  --accent-yellow-200: #FAE2AE;
+  --accent-yellow-100: #FEEDC8;
 }
 
 html {
@@ -81,56 +80,56 @@ body {
 }
 
 /* FONT SIZE */
-.font-xxl {
+.fs-xxl {
   font-size: 7.2rem;
 }
 
-.font-xl {
+.fs-xl {
   font-size: 6.4rem;
 }
 
-.font-l {
+.fs-l {
   font-size: 4.2rem;
 }
 
-.font-ml {
+.fs-ml {
   font-size: 3.6rem;
 }
 
-.font-m {
+.fs-m {
   font-size: 2.4rem;
 }
 
-.font-sm {
+.fs-sm {
   font-size: 1.8rem;
 }
 
-.font-s {
+.fs-s {
   font-size: 1.6rem;
 }
 
-.font-xs {
+.fs-xs {
   font-size: 1.4rem;
 }
 
-.font-xxs {
+.fs-xxs {
   font-size: 1.2rem;
 }
 
   /* FONT WEIGHT */
-  .fw-1 {
+  .fw-4 {
     font-weight: 400;
   }
 
-  .fw-2 {
+  .fw-5 {
     font-weight: 500;
   }
 
-  .fw-3 {
+  .fw-6 {
     font-weight: 600;
   }
 
-  .fw-4 {
+  .fw-7 {
     font-weight: 700;
   }
 

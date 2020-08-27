@@ -17,7 +17,7 @@ import desk from '../../assets/desk.jpg';
 import chicago from '../../assets/chicago.jpg';
 
 const BlogGallery = () => (
-  <div className="blogGallery">
+  <div className="blogGallery mt-xl">
     <div className="blogs">
       <Blog
         category="sports"

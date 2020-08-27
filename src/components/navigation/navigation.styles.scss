@@ -12,12 +12,11 @@
   justify-content: space-between;
   align-items: center;
 
-  color: #EDF5E1;
+  color: var(--primary-green-100);
   text-transform: uppercase;
-  font-weight: normal;
 
   &__item:hover {
-    border-bottom: 2px solid #EDF5E1;
+    border-bottom: 2px solid var(--primary-green-100);
     padding-bottom: 0.2rem;
     transition: all .2s;
   }
@@ -27,7 +26,7 @@
   position: fixed;
   top: 0;
   height: 5rem;
-  background-color: #05386B;
+  background-color: var(--primary-blue-800);
   width: calc(100% - 6rem);
   padding: 0 25%;
   transform: translate(-50%, 0a 10px rgba(0, 0, 0, 0.25));
@@ -37,6 +36,6 @@
   justify-content: space-between;
   align-items: center;
   
-  color: #EDF5E1;
+  color: var(--primary-green-100);
   text-transform: uppercase;
 }

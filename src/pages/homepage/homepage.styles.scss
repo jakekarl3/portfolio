@@ -1,6 +1,5 @@
 .homepage {
-  background-color: #EDF5E1;
-  // background-color: var(--light-primary-color);
+  background-color: var(--primary-green-100);
   display: flex;
   flex-direction: column;
   top: 20px;
@@ -13,7 +12,10 @@
   .section-about-me {
     display: flex;
     justify-content: center;
-    background: linear-gradient(154.84deg, #379683 -3.85%, #05386B 106.77%);
+    background: linear-gradient(
+      154.84deg, 
+      var(--primary-lime-400) -3.85%, 
+      var(--primary-blue-900) 106.77%);
     clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
   }
 
@@ -26,7 +28,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(327.76deg, #379683 -2.58%, #05386B 104.87%);
+    background: linear-gradient(
+      327.76deg, 
+      var(--primary-lime-400) -2.58%, 
+      var(--primary-blue-900) 104.87%);
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
   }
 }
