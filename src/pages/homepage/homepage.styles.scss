@@ -1,12 +1,9 @@
 .homepage {
   background-color: #EDF5E1;
+  // background-color: var(--light-primary-color);
   display: flex;
   flex-direction: column;
   top: 20px;
-
-  .section-landing {
-    // top: -1rem;
-  }
 
   .section-blog {
     display: flex;

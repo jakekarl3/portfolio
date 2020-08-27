@@ -11,11 +11,11 @@ import './landing.styles.scss';
 const Landing = () => (
   <div className="landing">
     <div className="landing__textbox">
-      <h1 className="landing__textbox--title">Jake Karl</h1>
-      <h3 className="landing__textbox--description">
+      <div className="landing__textbox--title font-xl fw-3">Jake Karl</div>
+      <div className="landing__textbox--description mt-xl font-m">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra vel turpis nunc eget lorem dolor sed viverra.
-      </h3>
-      <div className="landing__textbox--social">
+      </div>
+      <div className="landing__textbox--social mt-l">
         <a href="https://www.linkedin.com/in/jakekarl/" target="_blank" rel="noopener noreferrer">
           <img src={linkedIn} alt="linkedIn logo" />
         </a>

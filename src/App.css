@@ -6,6 +6,69 @@
   box-sizing: inherit;
 }
 
+:root {
+  --primary-green: #379683;
+  --primary-blue-900: hsl(211, 85, 24, 100%);
+  --primary-blue-700: hsl(211, 71, 31, 100%);
+  --primary-blue-800: hsl(211, 61, 37, 100%);
+  --primary-blue-600: hsl(211, 54, 44, 100%);
+  --primary-blue-500: hsl(211, 50, 50, 100%);
+  --primary-blue-400: hsl(211, 53, 60, 100%);
+  --primary-blue-300: hsl(211, 57, 70, 100%);
+  --primary-blue-200: hsl(211, 64, 80, 100%);
+  --primary-blue-100: hsl(211, 88, 90, 100%);
+
+  --primary-lime-900: hsl(147, 93, 16, 100%);
+  --primary-lime-800: hsl(147, 63, 27, 100%);
+  --primary-lime-700: hsl(147, 51, 39, 100%);
+  --primary-lime-600: hsl(147, 45, 50, 100%);
+  --primary-lime-500: hsl(147, 64, 61, 100%);
+  --primary-lime-400: hsl(147, 66, 69, 100%);
+  --primary-lime-300: hsl(147, 68, 77, 100%);
+  --primary-lime-200: hsl(147, 75, 85, 100%);
+  --primary-lime-100: hsl(147, 90, 92, 100%);
+
+  --primary-green-900: hsl(83, 87, 18, 100%);
+  --primary-green-800: hsl(83, 53, 27, 100%);
+  --primary-green-700: hsl(83, 35, 37, 100%);
+  --primary-green-600: hsl(84, 25, 46, 100%);
+  --primary-green-500: hsl(84, 22, 55, 100%);
+  --primary-green-400: hsl(83, 24, 64, 100%);
+  --primary-green-300: hsl(83, 27, 74, 100%);
+  --primary-green-200: hsl(84, 32, 83, 100%);
+  --primary-green-100: hsl(83, 51, 92, 100%);
+
+  --primary-grey-900: hsl(240, 4, 11, 100%);
+  --primary-grey-800: hsl(240, 3, 23, 100%);
+  --primary-grey-700: hsl(231, 4, 35, 100%);
+  --primary-grey-600: hsl(232, 3, 47, 100%);
+  --primary-grey-500: hsl(229, 5, 59, 100%);
+  --primary-grey-400: hsl(227, 5, 67, 100%);
+  --primary-grey-300: hsl(230, 5, 76, 100%);
+  --primary-grey-200: hsl(240, 5, 84, 100%);
+  --primary-grey-100: hsl(240, 5, 92, 100%);
+
+  --accent-red-900: hsl(0, 88, 19, 100%);
+  --accent-red-800: hsl(0, 69, 27, 100%);
+  --accent-red-700: hsl(0, 60, 35, 100%);
+  --accent-red-600: hsl(0, 54, 42, 100%);
+  --accent-red-500: hsl(0, 50, 50, 100%);
+  --accent-red-400: hsl(0, 52, 60, 100%);
+  --accent-red-300: hsl(0, 56, 71, 100%);
+  --accent-red-200: hsl(0, 65, 81, 100%);
+  --accent-red-100: hsl(0, 91, 91, 100%);
+
+  --accent-yellow-900: hsl(42, 91, 21, 100%);
+  --accent-yellow-800: hsl(42, 67, 32, 100%);
+  --accent-yellow-700: hsl(42, 55, 43, 100%);
+  --accent-yellow-600: hsl(41, 56, 54, 100%);
+  --accent-yellow-500: hsl(41, 80, 65, 100%);
+  --accent-yellow-400: hsl(41, 81, 71, 100%);
+  --accent-yellow-300: hsl(41, 85, 77, 100%);
+  --accent-yellow-200: hsl(41, 88, 83, 100%);
+  --accent-yellow-100: hsl(41, 96, 89, 100%);
+}
+
 html {
   /* This defines what 1rem is */
   /* 1 rem = 10px; 10px/16px = 62.5% */
@@ -15,4 +78,288 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
+}
+
+/* FONT SIZE */
+.font-xxl {
+  font-size: 7.2rem;
+}
+
+.font-xl {
+  font-size: 6.4rem;
+}
+
+.font-l {
+  font-size: 4.2rem;
+}
+
+.font-ml {
+  font-size: 3.6rem;
+}
+
+.font-m {
+  font-size: 2.4rem;
+}
+
+.font-sm {
+  font-size: 1.8rem;
+}
+
+.font-s {
+  font-size: 1.6rem;
+}
+
+.font-xs {
+  font-size: 1.4rem;
+}
+
+.font-xxs {
+  font-size: 1.2rem;
+}
+
+  /* FONT WEIGHT */
+  .fw-1 {
+    font-weight: 400;
+  }
+
+  .fw-2 {
+    font-weight: 500;
+  }
+
+  .fw-3 {
+    font-weight: 600;
+  }
+
+  .fw-4 {
+    font-weight: 700;
+  }
+
+/* MARGIN */
+.m-xs {
+  margin: 0.5rem;
+}
+
+.m-s {
+  margin: 1rem;
+}
+
+.m-m {
+  margin: 2rem;
+}
+
+.m-l {
+  margin: 3rem;
+}
+
+.m-xl {
+  margin: 5rem;
+}
+
+/* MARGIN BOTTOM */
+  .mb-xs {
+    margin-bottom: 0.5rem;
+  }
+
+  .mb-s {
+    margin-bottom: 1rem;
+  }
+
+  .mb-m {
+    margin-bottom: 2rem;
+  }
+
+  .mb-l {
+    margin-bottom: 3rem;
+  }
+
+  .mb-xl {
+    margin-bottom: 5rem;
+  }
+
+/* MARGIN TOP */
+  .mt-xs {
+    margin-top: 0.5rem;
+  }
+
+  .mt-s {
+    margin-top: 1rem;
+  }
+
+  .mt-m {
+    margin-top: 2rem;
+  }
+
+  .mt-l {
+    margin-top: 3rem;
+  }
+
+  .mt-xl {
+    margin-top: 5rem;
+  }
+
+/* MARGIN VERTICAL */
+  .mv-xs {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .mv-s {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .mv-m {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .mv-l {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .mv-xl {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  /* MARGIN HORIZONTAL */
+  .mh-xs {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .mh-s {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .mh-m {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .mh-l {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .mh-xl {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+/* PADDING */
+.p-xs {
+  padding: 0.5rem;
+}
+
+.p-s {
+  padding: 1rem;
+}
+
+.p-m {
+  padding: 2rem;
+}
+
+.p-l {
+  padding: 3rem;
+}
+
+.p-xl {
+  padding: 5rem;
+}
+
+  /* PADDING BOTTOM */
+  .pb-xs {
+    padding-bottom: 0.5rem;
+  }
+
+  .pb-s {
+    padding-bottom: 1rem;
+  }
+
+  .pb-m {
+    padding-bottom: 2rem;
+  }
+
+  .pb-l {
+    padding-bottom: 3rem;
+  }
+
+  .pb-xl {
+    padding-bottom: 5rem;
+  }
+
+  /* PADDING TOP */
+  .pt-xs {
+    padding-top: 0.5rem;
+  }
+
+  .pt-s {
+    padding-top: 1rem;
+  }
+
+  .pt-m {
+    padding-top: 2rem;
+  }
+
+  .pt-l {
+    padding-top: 3rem;
+  }
+
+  .pt-xl {
+    padding-top: 5rem;
+  }
+
+/* PADDING VERTICAL */
+.pv-xs {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pv-s {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pv-m {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pv-l {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pv-xl {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* PADDING HORIZONTAL */
+.ph-xs {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.ph-s {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ph-m {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.ph-l {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.ph-xl {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }

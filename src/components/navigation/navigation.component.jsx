@@ -6,17 +6,17 @@ import './navigation.styles.scss';
 
 class Navigation extends React.Component {
   state = {
-    class: "navigation"
+    class: "navigation font-sm"
   }
 
   listenScrollEvent = e => {
     if (window.scrollY > 30) {
       this.setState({
-        class: "navigation sticky"
+        class: "navigation sticky font-sm"
       }) 
     } else {
       this.setState({
-        class: "navigation"
+        class: "navigation font-sm"
       })
     }
   }

@@ -4,12 +4,12 @@ import React from 'react';
 import './blog.styles.scss';
 
 const Blog = ({ category, image, date, title }) => (
-  <div className="blog">
+  <div className="blog mb-l">
     {/* <img className="blog__image" src={} alt="blog" /> */}
     <div className="blog__image">Image</div>
     {/* <img className="blog__image" src={image} alt="blog" /> */}
-    <div className="blog__textbox">
-      <div className="blog__textbox--details">
+    <div className="blog__textbox mt-s font-xs">
+      <div className="blog__textbox--details mb-xs">
         <div className="date">{date}</div>
         <div className="category">{category}</div>
       </div>
