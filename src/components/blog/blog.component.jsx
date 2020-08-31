@@ -11,7 +11,7 @@ const Blog = ({ category, image, date, title }) => (
     <div className="blog__textbox mt-s fs-xs">
       <div className="blog__textbox--details mb-xs">
         <div className="date">{date}</div>
-        <div className="category ph-s">{category}</div>
+        <div className="category ph-s fw-6">{category}</div>
       </div>
       <div className="blog__textbox--title mt-xs fw-6">{title}</div>
     </div>

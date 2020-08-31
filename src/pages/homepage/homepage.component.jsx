@@ -2,7 +2,6 @@ import React from 'react';
 import { Element } from 'react-scroll';
 
 // COMPONENTS
-import Navigation from '../../components/navigation/navigation.component';
 import Landing from '../../components/landing/landing.component';
 import BlogGallery from '../../components/blog-gallery/blog-gallery.component';
 import AboutMe from '../../components/about-me/about-me.component';
@@ -15,7 +14,6 @@ import './homepage.styles.scss';
 
 const HomePage = () => (
   <div className="homepage">
-    <Navigation />
     <Element name="section-landing">
       <div className="section-landing">
         <Landing />
