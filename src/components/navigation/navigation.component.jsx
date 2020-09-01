@@ -6,17 +6,20 @@ import './navigation.styles.scss';
 
 class Navigation extends React.Component {
   state = {
-    class: "navigation fs-sm"
+    border: "top-border",
+    navbar: "navigation"
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 30) {
+    if (window.scrollY > 0) {
       this.setState({
-        class: "navigation sticky fs-sm"
+        border: "top-border active",
+        navbar: "navigation active blue-nav"
       }) 
     } else {
       this.setState({
-        class: "navigation fs-sm"
+        border: "top-border",
+        navbar: "navigation"
       })
     }
   }
@@ -27,43 +30,41 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div className={this.state.class}>
-        <Link
-          to="section-landing"
-          smooth={true}
-          duration={500}
-          offset={-30}
-        >
-          <div className="navigation__item active">Home</div>
-        </Link>
-        <Link
-          to="section-blog"
-          smooth={true}
-          duration={500}
-        >
-          <div className="navigation__item">Thoughts</div>
-        </Link>
-        <Link
-          to="section-about-me"
-          smooth={true}
-          duration={500}
-        >
-          <div className="navigation__item">About Me</div>
-        </Link>
-        <Link
-          to="section-projects"
-          smooth={true}
-          duration={500}
-        >
-          <div className="navigation__item">Projects</div>
-        </Link>
-        <Link
-          to="section-contact"
-          smooth={true}
-          duration={500}
-        >
-          <div className="navigation__item">Contact</div>
-        </Link>
+      <div className="fs-sm">
+        <div className={this.state.border}></div>
+        <div className={this.state.navbar}>
+          <div className="navigation__item">
+            <a href="/">Home</a>
+          </div>
+          <Link
+            to="section-blog"
+            smooth={true}
+            duration={500}
+          >
+            <div className="navigation__item">Thoughts</div>
+          </Link>
+          <Link
+            to="section-about-me"
+            smooth={true}
+            duration={500}
+          >
+            <div className="navigation__item">About Me</div>
+          </Link>
+          <Link
+            to="section-projects"
+            smooth={true}
+            duration={500}
+          >
+            <div className="navigation__item">Projects</div>
+          </Link>
+          <Link
+            to="section-contact"
+            smooth={true}
+            duration={500}
+          >
+            <div className="navigation__item">Contact</div>
+          </Link>
+        </div>
       </div>
     )
   }

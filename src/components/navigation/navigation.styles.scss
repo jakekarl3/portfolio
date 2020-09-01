@@ -1,3 +1,10 @@
+.top-border {
+  background-color: white;
+  height: 3rem;
+  z-index: 100;
+  width: calc(100% - 6rem);
+}
+
 .navigation {
   position: absolute;
   width: calc(100% - 6rem);
@@ -20,22 +27,17 @@
     padding-bottom: 0.2rem;
     transition: all .2s;
   }
+
+  a {
+    text-decoration: none;
+    color: var(--primary-green-100);
+  }
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  height: 5rem;
+.blue-nav {
   background-color: var(--primary-blue-800);
-  width: calc(100% - 6rem);
-  padding: 0 25%;
-  transform: translate(-50%, 0a 10px rgba(0, 0, 0, 0.25));
-  left: 50%;
+}
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-  color: var(--primary-green-100);
-  text-transform: uppercase;
+.active {
+  position: fixed;
 }

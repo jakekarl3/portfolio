@@ -76,7 +76,7 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem;
+  padding: 0 3rem 3rem 3rem;
 }
 
 /* FONT SIZE */
