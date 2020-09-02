@@ -76,7 +76,7 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 0 3rem 3rem 3rem;
+  padding: 0 3rem;
 }
 
 /* FONT SIZE */
@@ -116,22 +116,22 @@ body {
   font-size: 1.2rem;
 }
 
-  /* FONT WEIGHT */
-  .fw-4 {
-    font-weight: 400;
-  }
+/* FONT WEIGHT */
+.fw-4 {
+  font-weight: 400;
+}
 
-  .fw-5 {
-    font-weight: 500;
-  }
+.fw-5 {
+  font-weight: 500;
+}
 
-  .fw-6 {
-    font-weight: 600;
-  }
+.fw-6 {
+  font-weight: 600;
+}
 
-  .fw-7 {
-    font-weight: 700;
-  }
+.fw-7 {
+  font-weight: 700;
+}
 
 /* MARGIN */
 .m-xs {

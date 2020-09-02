@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 100;
+  
+  color: var(--primary-green-100);
+  text-transform: uppercase;
+  
+  .nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 6rem);
+    margin-top: 3rem;
+    padding: 0 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    &__item {
+      display: flex;
+      align-items: center;
+      height: 5rem;
+      background-color: transparent;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--primary-green-100);
+  }
+  
+  .sticky {
+    position: fixed;
+  }
+  
+  .page-margin {
+    position: fixed;
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+  }
+
+  .nav-blue {
+    background-color: var(--primary-blue-900);
+  }
+}
